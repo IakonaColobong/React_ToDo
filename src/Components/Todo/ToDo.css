@@ -1,0 +1,40 @@
+section.resources {
+    /* background-image: url('../../images/background.jpg');
+    background-size: 100%;
+    background-position: bottom; */
+    background-color: black;
+}
+
+section.resources article.resourceGallery {
+    padding: 2em 0 4em;
+}
+
+/*#region Tile*/
+article.resourceGallery div.singleResource {
+border: 2px solid #212529;
+text-align: center;
+position: relative;
+padding: 0 0 2em;
+height: 15em;
+border-radius: 5px;
+background-color: rgba(200,200,200,.95);
+}
+
+
+div.singleResource h3 {
+    background-color: rgb(23, 162, 184);
+    padding: .5em 0;
+    border-bottom: 4px solid #212529;
+    color: #212529;
+}
+
+div.singleResource p {
+    padding: 1em;
+}
+
+@media screen and (max-width: 1023px){
+    section.resources {
+        background-size: 200%;
+    }
+}
+/*end region*/
